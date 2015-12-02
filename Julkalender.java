@@ -49,10 +49,10 @@ public class Julkalender
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y
+     * 3 methods
+     * openToday()
+     * openAny(int)
+     * showAllOpen()
      */
 
       public String openToday() {
@@ -63,7 +63,7 @@ public class Julkalender
          // date (i) is not allowed to exceed todaysDate
          String out = "";
          if(i > todaysDate){
-            out = "ERRORE! ERRORE! Vi har en fuskare här!";
+            out = "Ajabaja! Man får inte tjyvkika!";
             } else {
             out = Gifts[i-1];
             }
@@ -81,7 +81,6 @@ public class Julkalender
 public static void main(String[] args) {
 
   Julkalender MinJulkalender = new Julkalender();
-  //System.out.println(MinJulkalender.showAllOpen());
 
   Scanner keyboard = new Scanner(System. in );
   System.out.println("1. Visa dagens lucka 2. Öppna valfri lucka 3. Visa alla öppnade");
